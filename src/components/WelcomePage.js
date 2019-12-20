@@ -1,5 +1,6 @@
 import React from "react";
-
+import ReactDOM from "react-dom";
+import { fromEventPattern } from "rxjs";
 export default function WelcomePage() {
   return (
     <section className="welcome-page">
