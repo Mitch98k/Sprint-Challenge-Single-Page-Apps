@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
+import {ListGroup, ListGroupItem} from "reactstrap";
+import CharacterCard from "./CharacterCard";
 
 const CharacterList = (props) => {
   // TODO: Add useState to track data from useEffect
@@ -30,11 +32,11 @@ const [character, setCharacter] = useState([]);
 function CharacterDetails({characters}) {
   const {name, status, species} = characters;
   return (
-    <div>
-      <h2>{name}</h2>
-      <h2>{status}</h2>
-      <h2>{species}</h2>
-    </div>
+    <ListGroup>
+      <ListGroupItem>{name}</ListGroupItem>
+      <ListGroupItem>{status}</ListGroupItem>
+      <ListGroupItem>{species}</ListGroupItem>
+    </ListGroup>
   );
 }
 

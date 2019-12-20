@@ -27,7 +27,7 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ]  Explain benefit(s) using `client-side routing`?
 
-> Answer:
+> Answer: When we use client-side routing it makes the users experience a lot better. Whenever they click on a button or link, instead of reloading the page it just switches to a different component. This makes the loading time seem shorter to the user.
 
 ## Project Set Up
 
